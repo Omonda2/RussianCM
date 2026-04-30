@@ -194,6 +194,12 @@
         crate: AU14CrateBoxD18Magazines
       - cost: 355
         crate: AU14CrateBoxABR40Magazines
+    - name: Armor
+      entries:
+      - cost: 1500
+        crate: AU14CrateBoxArmorVest
+      - cost: 2000
+        crate: AU14CrateBoxRiotArmor
     - name: Furniture
       entries:
       - cost: 320

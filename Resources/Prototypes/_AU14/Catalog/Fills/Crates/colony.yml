@@ -359,6 +359,30 @@
     - id: CMMagazinePistolM77AP
       amount: 7
 
+#Armor
+
+- type: entity
+  parent: RMCCrateBase
+  id: AU14CrateBoxArmorVest
+  name: "Armor Vest crate (3x Armor Vest)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCArmorVest
+      amount: 3
+
+- type: entity
+  parent: RMCCrateBase
+  id: AU14CrateBoxRiotArmor
+  name: "Riot Control armor crate (2x Riot Armor, 2x Riot Helmet)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: ArmorHelmetRiot
+      amount: 2
+    - id: RMCArmorRiotCivilian
+      amount: 2
+
 #Tools
 
 - type: entity
