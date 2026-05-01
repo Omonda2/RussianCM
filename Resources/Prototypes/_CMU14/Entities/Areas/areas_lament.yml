@@ -60,7 +60,7 @@
   components:
   - type: Sprite
     state: north
-    
+
 - type: entity
   parent: CMUAreaLV376N
   id: CMUAreaLV376NO
@@ -68,7 +68,7 @@
   components:
   - type: Sprite
     state: valley_north
- 
+
 - type: entity
   parent: CMUAreaLV376Outside
   id: CMUAreaLV376NE
@@ -426,7 +426,7 @@
     state: maint_engineering
   - type: Area
     minimapColor: '#C19504E7'
-    
+
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376EngineeringOuthouse
@@ -499,6 +499,14 @@
 
 - type: entity
   parent: CMUAreaLV376Inside
+  id: CMUAreaLV376HotSprings
+  name: Barker's Lament - Hot Springs
+  components:
+  - type: Sprite
+    state: bar
+
+- type: entity
+  parent: CMUAreaLV376Inside
   id: CMUAreaLV376CrackHome
   name: Abandoned Shack
   components:
@@ -539,6 +547,11 @@
   parent: CMUAreaLV376Med
   id: CMUAreaLV376MedGarage
   name: Barker's Lament - Medical Garage
+
+- type: entity
+  parent: CMUAreaLV376Med
+  id: CMUAreaLV376Garages
+  name: Barker's Lament - Garages
 
 - type: entity
   parent: CMUAreaLV376Inside
