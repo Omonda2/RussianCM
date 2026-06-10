@@ -94300,6 +94300,7 @@ entities:
     - type: Transform
       pos: 10.5,-67.5
       parent: 1
+## RuMC change start
 - proto: CMULimbPrinter
   entities:
   - uid: 9156
@@ -94312,6 +94313,7 @@ entities:
     - type: Transform
       pos: 20.5,-27.5
       parent: 1
+## RuMC change end
 - proto: CMURandomFloraTree
   entities:
   - uid: 3592
@@ -143373,6 +143375,7 @@ entities:
     - type: Transform
       pos: 255.65013,-125.2338
       parent: 1
+## RuMC change start
 - proto: RMCMedilatheLeft
   entities:
   - uid: 2201
@@ -143385,6 +143388,7 @@ entities:
     - type: Transform
       pos: 179.5,-64.5
       parent: 1
+## RuMC change end
 - proto: RMCMirror
   entities:
   - uid: 12266
@@ -157837,6 +157841,7 @@ entities:
     - type: Transform
       pos: -15.5,-144.5
       parent: 1
+## RuMC change start
 - proto: RMCRecharger
   entities:
   - uid: 2203
@@ -157859,6 +157864,7 @@ entities:
     - type: Transform
       pos: 189.5,-142.5
       parent: 1
+## RuMC change end
 - proto: RMCRock06
   entities:
   - uid: 14690
